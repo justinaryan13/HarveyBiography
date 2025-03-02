@@ -1,7 +1,15 @@
+body {
+  flex-wrap: wrap;
+}
+
 .Navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.Title > h2 {
+  margin-left: 20px;
 }
 
 .Menu{
@@ -11,10 +19,11 @@ margin: 20px;
 .Menu > ul > li > a {
     text-decoration: none;
     margin: 20px;
-    color: rgb(132, 118, 59);
+    color: rgb(115, 104, 60);
     font-weight: bold;
     font-family: "EB Garamond", serif;
     font-size: 22px;
+    flex-wrap: nowrap;
 }
 
 .Menu li{
@@ -31,7 +40,7 @@ margin: 20px;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color: rgb(159, 142, 75);
+    color: rgb(115, 104, 60);
     font-weight: bold;
     font-size: 40px;
   }
@@ -41,6 +50,7 @@ margin: 20px;
   justify-content: space-evenly;
   margin-top: 50px;
   align-content: center;
+  flex-wrap: wrap;
  }
 
  .Formation-Title{
@@ -55,6 +65,19 @@ margin: 20px;
   justify-content: space-between;
  }
 
+.Biography-Image{
+  flex-wrap: wrap;
+}
+
+ .Biography-Text {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+  flex-wrap: wrap;
+ }
+
  .Biography-Image > img{
   margin-bottom: -300px;
  }
@@ -67,11 +90,12 @@ margin: 20px;
   font-size: 25px;
   white-space: nowrap;
   margin-top: 40px;
+  flex-wrap: wrap;
  }
 
  .Biography-Text > p {
   margin-left: 20px;
-  margin-top: -25px;
+  margin-top: -30px;
   font-family: "EB Garamond", serif;
   text-align: justify;
   font-size: 15px;
@@ -99,13 +123,49 @@ margin: 20px;
 
 #Journey{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.Journey-Title > h1 {
+  font-size: 45px;
+  margin-left: 75px;
+  font-family: "EB Garamond", serif;
+  margin-bottom: -10px;
+  margin-top: -10px;
 }
 
 .Journey-Title > p{
   text-align: justify;
   font-family: "EB Garamond", serif;
   font-size: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
+#Video {
+  display:flex;
+  justify-content: space-between;
+}
+
+.Video-Title > h1 {
+  margin-top: -20px;
+  text-align: center;
+}
+
+.Video-Container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  margin-top: -40px;
+  color: rgb(115, 104, 60);
+}
 
