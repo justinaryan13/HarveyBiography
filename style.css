@@ -1,0 +1,111 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Menu{
+margin: 20px;
+}
+
+.Menu > ul > li > a {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(132, 118, 59);
+    font-weight: bold;
+    font-family: "EB Garamond", serif;
+    font-size: 22px;
+}
+
+.Menu li{
+    list-style: none;
+}
+
+.Menu a:hover {
+    background: transparent;
+    color: black;
+}
+
+.eb-garamond-regular {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(159, 142, 75);
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+ #Formation{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  align-content: center;
+ }
+
+ .Formation-Title{
+  text-align: justify;
+  font-size: 25px;
+  margin-right: -100px;
+  margin-top: 40px;
+ }
+
+ #Biography{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .Biography-Image > img{
+  margin-bottom: -300px;
+ }
+
+ .Biography-Text > h3 {
+  margin-left: 12px;
+  font-family: "EB Garamond", serif;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 25px;
+  white-space: nowrap;
+  margin-top: 40px;
+ }
+
+ .Biography-Text > p {
+  margin-left: 20px;
+  margin-top: -25px;
+  font-family: "EB Garamond", serif;
+  text-align: justify;
+  font-size: 15px;
+  white-space: nowrap;
+  color: rgb(112, 115, 120);
+ }
+
+ .Bio-Tittle{
+  text-align: justify;
+  margin-left: 75px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  margin-top: -40px;
+ }
+
+.Biography-Text > span {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
+  color: rgb(12, 12, 12);
+  margin-left: 15px;
+  margin-top: -35px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+#Journey{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Journey-Title > p{
+  text-align: justify;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+}
+
+
